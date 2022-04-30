@@ -31,11 +31,13 @@
             <artifactId>testng</artifactId>
             <version>7.4.0</version>
         </dependency>
+             <dependency>     <groupId>com.apple</groupId>     <artifactId>AppleJavaExtensions</artifactId>     <version>1.4</version> </dependency>
     </dependencies>
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
+                     <artifactId>maven-compiler-plugin</artifactId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M5</version>
                 <configuration>
